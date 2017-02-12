@@ -79,35 +79,35 @@ button {
 
 
 header {
-	background: url('../img/gehry.jpg');
+	background: url('../img/gehry.png');
 	background-color: white!important;
 	background-size: cover;
 	background-repeat: no-repeat;
 }
 
 .intro {
-	background: url('../img/theater_lights.jpg');
+	background: url('../img/theater_lights.png');
 	background-color: white!important;
 	background-size: cover;
 	background-repeat: no-repeat;
 }
 
 .work {
-	background: url('../img/text_faces.jpg');
+	background: url('../img/text_faces.png');
 	background-color: white!important;
 	background-size: cover;
 	background-repeat: no-repeat;
 }
 
 .project {
-	background: url('../img/theater_behind.jpg');
+	background: url('../img/theater_behind.png');
 	background-color: white!important;
 	background-size: cover;
 	background-repeat: no-repeat;
 }
 
 .contact {
-	background: url('../img/ladder.jpg');
+	background: url('../img/ladder.png');
 	background-color: white!important;
 	background-size: cover;
 	background-repeat: no-repeat;
