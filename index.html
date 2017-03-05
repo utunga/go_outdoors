@@ -13,7 +13,7 @@
     <link href='https://fonts.googleapis.com/css?family=Roboto+Condensed:300italic,400italic,700italic,400,300,700' rel='stylesheet' type='text/css'>
     <!-- Template Styles -->
     <link href="css/style.css" rel="stylesheet" media="screen">
-      </head>
+  </head>
   <body>
 	  
 	  <!-- NAVBAR
@@ -46,7 +46,7 @@
 	  
 	   <!-- HEADER
 	   ================================================== -->	  
-	  <section>
+	  <header>
 		 <div class="container">
 			 <div class="row">
 				 <div class="col-md-12">
@@ -57,7 +57,7 @@
 				</div>	  
 			</div>    
 		</div>
-	 </section>
+	 </header>
 	  
 	  
 	  <!-- intro
@@ -93,7 +93,7 @@ You will be working with a codebase (and a data pipeline) already under active d
 	      		</div>
 	      		<div class="col-sm-12 col-md-5">
 	      			<div class="preview_gif">
-	      				<img src="img/generation_video.gif" class="img-responsive" alt="Text Generation Animated">
+	      				<img src="img/generation_video_sm.png" id="generation_anim" class="img-responsive" alt="Text Generation Animated">
 	      			</div>
 	      		</div>
 			      	
@@ -161,4 +161,11 @@ Please get in touch by email with a CV or bio, and if possible include a link to
     <script src="js/scripts.js"></script>
     <script src="js/retina.min.js"></script>
   	
+  	<script>
+  	window.onload = function() {
+    	// this will fire after the entire page is loaded, including images
+    	var img = document.getElementById("generation_anim")
+    	img.src = "img/generation_video.gif"
+	};
+  	</script>
 </html>
