@@ -346,7 +346,7 @@ header p.lead{
 	}
 	
 	header p.lead {
-		font-size: 30px;
+		font-size: 1.2em;
 		width: 100%;
 	}
 
@@ -370,7 +370,10 @@ header p.lead{
 		padding-top: 30px;
 		padding-bottom: 0px;
 	}
-	
+
+	header p.lead {
+		font-size: 1em;
+	}
 
 	.work {
 		padding-top: 50px;
